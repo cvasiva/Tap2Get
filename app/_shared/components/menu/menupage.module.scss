@@ -1,0 +1,1490 @@
+.menuwidth {
+  width: 100%;
+  margin: 1rem 0rem;
+  border-radius: 30px;
+  max-height: 100%;
+  height: 81.5vh;
+}
+
+.cardmenu {
+  border-radius: 53.5px;
+  border: 1px solid #d3e7bf;
+  background: #eafcdb;
+  margin: 0.5rem 1.5rem;
+}
+
+.cardmenu18 {
+  border-radius: 30px;
+  border: 1px solid #d1d1d1;
+  background: #fff;
+  width: 40%;
+}
+
+.cardmenu181 {
+  border-radius: 30px;
+  border: 1px solid #d1d1d1;
+  background: #fff;
+  width: 60%;
+}
+
+.itemcentermenu {
+  display: flex;
+  // justify-content: start;
+  text-align: start;
+}
+
+.menuflex {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 1.5rem 1rem 1rem 1rem;
+}
+
+.toprestmenu {
+  border-radius: 9px;
+  border: 1px solid #565656;
+  width: 30%;
+  margin-left: 10%;
+  margin-top: -1rem;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.toprestmenuOrder {
+  border-radius: 9px;
+  border: 1px solid #565656;
+  width: 20%;
+  margin-left: 10%;
+  margin-top: -1rem;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.toprestmenudetails {
+  border-radius: 9px;
+  border: 1px solid #565656;
+  width: 15%;
+  margin-left: 2%;
+  margin-top: -1rem;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.toprestmenuitem {
+  border-radius: 9px;
+  border: 1px solid #565656;
+  width: 20%;
+  margin-left: 7%;
+  margin-top: -1rem;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.menuinpu {
+  border-radius: 10px;
+  border: 1px solid #cae3b7;
+  background: #fff;
+  height: 32px;
+  width: 50%;
+}
+
+.menuinpuitem {
+  border-radius: 10px;
+  border: 1px solid #cae3b7;
+  background: #fff;
+  height: 32px;
+  width: 35%;
+}
+
+.addflex {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+
+.southmenu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  border: 1.298px solid #cae3b7;
+  background: #fff;
+  margin: 1rem 1rem;
+  color: #85afa2;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.southmenuedit {
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  border: 1.298px solid #cae3b7;
+  background: #fff;
+  margin: 1rem 1rem;
+  color: #85afa2;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.southmenuactive {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  border: 1.298px solid rgba(65, 151, 0, 1);
+  background: rgba(245, 255, 238, 1);
+  margin: 1rem 1rem;
+  color: #85afa2;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.southmenuactiveitem {
+  width: 95%;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  border: 1.298px solid rgba(65, 151, 0, 1);
+  background: rgba(245, 255, 238, 1);
+  margin: 1rem 1rem;
+  color: #85afa2;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.southmenuactivemenu {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  border: 1.298px solid rgba(65, 151, 0, 1);
+  background: rgba(245, 255, 238, 1);
+  margin: 1rem 1rem;
+  color: #85afa2;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.active {
+  font-weight: 800;
+}
+
+.southmenuitem {
+  display: flex;
+  height: 100%;
+  width: 96%;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  border: 1.298px solid #cae3b7;
+  background: #fff;
+  margin: 1rem 1rem;
+  color: #85afa2;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.southmenuitemHistory {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  border: 1.298px solid #cae3b7;
+  background: #fff;
+  margin: 1rem 1rem;
+  color: #85afa2;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.southmenuitemedit {
+  width: 55%;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  border: 1.298px solid #cae3b7;
+  background: #fff;
+  margin: 1rem 1rem;
+  color: #85afa2;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.switchinput {
+  width: 10vw;
+}
+
+.activeiconsouth {
+  background: #dff3cf;
+  padding: 0.1rem 0rem;
+  display: flex;
+}
+
+.savebtnmenuedit {
+  border-radius: 30px;
+  background: #588a7a;
+  color: #fff;
+  font-size: 14px;
+}
+
+.Entermenunamefont {
+  margin-top: -1rem;
+  background: #fff;
+  width: 30%;
+  text-align: center;
+  color: #588a7a;
+  font-size: 14px;
+}
+
+.menuinpuedit {
+  border: none;
+  background: none;
+}
+
+.cardmenudetails {
+  border-radius: 34px;
+  border: 1px solid #d1d1d1;
+  background: #fff;
+  width: 100%;
+  margin-bottom: 1%;
+  // height: 100vh;
+}
+
+.basickmenufont {
+  color: #588a7a;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  margin-inline-start: 10%;
+}
+
+.basickmenufontitem {
+  color: #588a7a;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+  margin-inline-start: 5%;
+  margin-top: 0%;
+}
+
+.colborderight {
+  border-right: 1px solid #cae3b7;
+  height: 50vh;
+  padding: 0rem 0rem 0rem 1rem;
+  width: 100%;
+}
+
+.jamuncard {
+  border: 1px solid #cae3b7;
+  background: #ffffff;
+  border-radius: 12px;
+  width: 80%;
+  height: 30vh;
+}
+
+.Gulabfontstyle {
+  color: #4c4c4c;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.nextbtn {
+  background: #96c872;
+  border: 1px solid #74a650;
+  border-radius: 12px;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.inputrestmenuedit {
+  height: 42px;
+  border-radius: 10px;
+  border: 1px solid #74a650;
+  background: #f8fff3;
+  width: 100%;
+  padding-left: 10px;
+  color: #000000;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.inputprice {
+  height: 42px;
+  border-radius: 10px;
+  border: 1px solid #74a650;
+  background: #f8fff3;
+  width: 75%;
+  padding-left: 10px;
+  color: #000000;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.submitbtnmenu {
+  background: #588a7a;
+  border-radius: 15px;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  text-align: center;
+}
+
+.createfont {
+  color: #8c8c8c;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 21px;
+}
+
+.quantitycard {
+  background: #f1ffe7;
+  border: 1px solid #cae3b7;
+  border-radius: 15px;
+  width: 70%;
+  padding: 1rem;
+}
+
+.addbtnmenuedit {
+  border: 1px solid #588a7a;
+  color: #588a7a;
+  border-radius: 7px;
+  font-family: Ubuntu;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.Quantityfont {
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29px;
+}
+
+.babyfontmenu {
+  color: #588a7a;
+  font-family: Ubuntu;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+.radiostyle {
+  border: 1.27px solid #588a7a;
+  background: #ffffff;
+  height: 16.57px;
+  width: 16.57px;
+  margin-top: 2%;
+}
+
+.addednewbtn {
+  display: block;
+  margin-top: 0%;
+  background: #f4f8e2;
+  border: 1px solid #b5cfa1;
+  color: #74a650;
+  border-radius: 13px;
+  width: 40px;
+  height: 16vh;
+}
+
+.addednewbtn1 {
+  transform: rotate(-90deg);
+  font-family: Ubuntu;
+  font-size: 13px;
+  text-wrap: nowrap;
+  margin-top: 10vh;
+  // height: 40px;
+  /* width: 45px; */
+}
+
+.Gulabfont {
+  color: #588a7a;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+}
+
+.Todayspecial {
+  color: #8c8c8c;
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.Reffont {
+  color: #4c4c4c;
+  font-family: Ubuntu;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.APPROVEDbtn {
+  // background: #588A7A;
+  border: 1px solid #cae3b7;
+  border-radius: 23px;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.timeonmenu {
+  color: #8c8c8c;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.rowbasic {
+  margin: 0rem 1rem;
+  gap: 0rem;
+}
+
+.contentPartreast {
+  height: calc(100vh - 130px);
+  overflow-x: hidden;
+}
+
+.cardrest {
+  background: #fff;
+  border: 1px solid #d1d1d1;
+  margin: 1.5rem 1rem 1rem 1rem;
+  border-radius: 30px;
+  padding: 0rem 1rem;
+}
+
+.toprest {
+  border-radius: 9px;
+  border: 1px solid #565656;
+  width: 22%;
+  margin-left: 2%;
+  margin-top: -1rem;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.toprestHelp {
+  border-radius: 9px;
+  border: 1px solid #565656;
+  width: 10%;
+  margin-left: 2%;
+  margin-top: -1rem;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.toprestSettings {
+  border-radius: 9px;
+  border: 1px solid #565656;
+  width: 12%;
+  margin-left: 2%;
+  margin-top: -1rem;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.toprestRestaurant {
+  border-radius: 9px;
+  border: 1px solid #565656;
+  width: 22%;
+  margin-left: 2%;
+  margin-top: -1rem;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.toprestdetails {
+  border-radius: 9px;
+  border: 1px solid #565656;
+  width: 15%;
+  margin-left: 2%;
+  margin-top: -1rem;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Savebtnrest {
+  border-radius: 13px;
+  border: 1px solid #74a650;
+  background: #5a8d7d;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.onerfontstyle {
+  margin-top: 0.5rem;
+  margin-left: 3%;
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.labelfontrest {
+  color: #9a9a9a;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-inline-start: 0%;
+}
+
+.inputrest {
+  height: 42px;
+  margin-top: 2%;
+  border-radius: 10px;
+  border: 1px solid #74a650;
+  background: #f8fff3;
+  width: 100%;
+  padding-left: 10px;
+  color: #000000;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.inputrestmobile {
+  height: 42px;
+  margin-top: 2%;
+  border-radius: 10px;
+  border: 1px solid #74a650;
+  background: #f8fff3;
+  width: 100%;
+  color: #000000;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.overflowprofile {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 64.5vh;
+}
+
+.overflowprofilemyprofile {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 74vh;
+}
+
+.inputrestaddress {
+  height: 18vh;
+  margin-top: 2%;
+  border-radius: 10px;
+  border: 1px solid #74a650;
+  background: #f8fff3;
+  width: 100%;
+  padding-left: 10px;
+  color: #000000;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.inputrestAddressowner {
+  height: 100%;
+  margin-top: 1%;
+  border-radius: 10px;
+  border: 1px solid #74a650;
+  background: #f8fff3;
+  width: 100%;
+  padding-left: 10px;
+  color: #000000;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.mapcard {
+  border-radius: 16px;
+  border: 1px solid #96c872;
+  background: lightgray 0px -219.712px / 100% 286.383% no-repeat;
+  height: 316px;
+  width: 100%;
+  margin: 0rem 1rem;
+}
+
+.addbtnrest {
+  color: #96c872;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.Submitbtnreat {
+  border-radius: 6.322px;
+  background: #588a7a;
+  border: none;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 20.608px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.margirowrest {
+  margin: 0rem 0.5rem;
+}
+
+.padingcolrest {
+  padding: 0rem 1rem;
+  width: 75%;
+}
+
+.browscard {
+  border-radius: 22px;
+  border: 1px dashed #cae3b7;
+  background: rgba(241, 255, 231, 0.64);
+  width: 75%;
+}
+
+.Uploadfont {
+  color: #cae3b7;
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.dargfont {
+  color: #9a9a9a;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.brosefont {
+  color: #4c4c4c;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.newmenuitem {
+  border: 1px solid #b5cfa1;
+  color: #74a650;
+}
+
+.menuediterscroll {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 64.5vh;
+}
+
+.todayspecialscroll {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 74vh;
+}
+
+.menuediterscrollBasic {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 53vh;
+}
+
+.menuediterscrollPreparing {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 62vh;
+}
+
+.pricemarginestart {
+  margin-inline-start: 1.75rem;
+}
+
+.pricemarginestart1 {
+  margin-inline-start: 1rem;
+}
+
+.widthcolitem {
+  width: 50%;
+}
+
+.histortmy {
+  margin: 2rem 1rem;
+}
+
+.submitcenter {
+  text-align: center;
+  padding-left: 36%;
+}
+
+.createfontof {
+  visibility: hidden;
+  display: block;
+}
+
+.padinglike {
+  padding: 0rem 0rem;
+  margin-inline-start: 10%;
+}
+
+.Quantitymargin {
+  margin-inline-start: 10%;
+}
+
+.specialstyle {
+  margin-inline-start: 0.75rem;
+}
+
+.Uploadingstyle {
+  border: 1px solid #74a650;
+  border-radius: 10px;
+  background: #f8fff3;
+  padding: 0.5rem 0.5rem;
+  width: 80%;
+}
+
+.Variantmargin {
+  margin: 0rem 3rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+}
+
+.jamunflex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.overflowbaby {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 10vh;
+}
+
+@media (max-width: 40em) {
+  .overflowbaby {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .jamunflex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .Uploadingstyle {
+    border: 1px solid #74a650;
+    border-radius: 10px;
+    background: #f8fff3;
+    padding: 0.5rem 0.5rem;
+    width: 98%;
+  }
+
+  .Variantmargin {
+    margin: 0rem 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+
+  .inputrestaddress {
+    height: 100%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid #74a650;
+    background: #f8fff3;
+    width: 100%;
+    padding-left: 10px;
+    color: #000000;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .inputrestAddressowner {
+    height: 100%;
+    margin-top: 2%;
+    border-radius: 10px;
+    border: 1px solid #74a650;
+    background: #f8fff3;
+    width: 100%;
+    padding-left: 10px;
+    color: #000000;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .specialstyle {
+    margin-inline-start: 0rem;
+  }
+
+  .Quantitymargin {
+    margin-inline-start: 0%;
+  }
+
+  .padinglike {
+    padding: 0rem 0.75rem;
+    margin-inline-start: 0%;
+  }
+
+  .createfontof {
+    visibility: hidden;
+    display: none;
+  }
+
+  .histortmy {
+    margin: 2rem 0rem;
+  }
+
+  .southmenuitemHistory {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 0rem 0.5rem;
+    border-radius: 15px;
+    border: 1.298px solid #cae3b7;
+    background: #fff;
+    margin: 1rem 1rem;
+    color: #85afa2;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 768px) {
+  .todayspecialscroll {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .submitcenter {
+    text-align: center;
+    padding-left: 0%;
+  }
+
+  .labelfontrest {
+    color: #9a9a9a;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-inline-start: 2%;
+  }
+
+  .toprestRestaurant {
+    border-radius: 9px;
+    border: 1px solid #565656;
+    width: 80%;
+    margin-left: 2%;
+    margin-top: -1rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .overflowprofile {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .overflowprofilemyprofile {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .addednewbtn1 {
+    transform: rotate(-90deg);
+    font-family: Ubuntu;
+    font-size: 13px;
+    text-wrap: nowrap;
+    margin-top: 11vh;
+    // height: 40px;
+    /* width: 45px; */
+  }
+
+  .addednewbtn {
+    display: none;
+    margin-top: 10%;
+    background: #f4f8e2;
+    border: 1px solid #b5cfa1;
+    color: #74a650;
+    border-radius: 13px;
+    width: 40px;
+    height: 17vh;
+  }
+
+  .browscard {
+    border-radius: 22px;
+    border: 1px dashed #cae3b7;
+    background: rgba(241, 255, 231, 0.64);
+    width: 100%;
+  }
+
+  .pricemarginestart1 {
+    margin-inline-start: 0rem;
+  }
+
+  .quantitycard {
+    background: #f1ffe7;
+    border: 1px solid #cae3b7;
+    border-radius: 15px;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .inputprice {
+    height: 42px;
+    border-radius: 10px;
+    border: 1px solid #74a650;
+    background: #f8fff3;
+    width: 100%;
+    padding-left: 10px;
+    color: #000000;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .widthcolitem {
+    width: 100%;
+  }
+
+  .pricemarginestart {
+    margin-inline-start: 0rem;
+  }
+
+  .basickmenufontitem {
+    color: #588a7a;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0em;
+    margin-top: 5%;
+  }
+
+  .basickmenufont {
+    color: #588a7a;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    margin-inline-start: 3%;
+  }
+
+  .menuediterscroll {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .menuediterscrollBasic {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .menuediterscrollPreparing {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .rowbasic {
+    margin: 1rem 0.5rem;
+    gap: 2rem;
+  }
+
+  .mapcard {
+    border-radius: 16px;
+    border: 1px solid #96c872;
+    background: lightgray 0px -219.712px / 100% 286.383% no-repeat;
+    height: 316px;
+    width: 100%;
+    margin: 0rem 0rem;
+  }
+
+  .padingcolrest {
+    padding: 0rem 0rem;
+    width: 100%;
+  }
+
+  .margirowrest {
+    margin: 0rem 0.5rem;
+  }
+
+  .onerfontstyle {
+    margin-top: 0rem;
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .Savebtnrest {
+    border-radius: 13px;
+    border: 1px solid #5a8d7d;
+    background: rgba(150, 200, 114, 0.34);
+    color: #fff;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0.5rem 0rem;
+  }
+
+  .cardrest {
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    height: 100%;
+    margin: 1.5rem 0.5rem 1rem 0.5rem;
+    border-radius: 30px;
+    padding: 0rem 0.2rem;
+  }
+
+  .toprest {
+    border-radius: 9px;
+    border: 1px solid #565656;
+    width: 50%;
+    margin-left: 0%;
+    margin-top: -1rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .toprestHelp {
+    border-radius: 9px;
+    border: 1px solid #565656;
+    width: 40%;
+    margin-left: 2%;
+    margin-top: -1rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .toprestSettings {
+    border-radius: 9px;
+    border: 1px solid #565656;
+    width: 40%;
+    margin-left: 2%;
+    margin-top: -1rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .toprestdetails {
+    border-radius: 9px;
+    border: 1px solid #565656;
+    width: 40%;
+    margin-left: 2%;
+    margin-top: -1rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 1024px) {
+  .rowbasic {
+    margin: 0rem 0.5rem;
+    gap: 2rem;
+  }
+
+  .colborderight {
+    border-right: none;
+    height: 100%;
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  .jamuncard {
+    border: 1px solid #cae3b7;
+    background: #ffffff;
+    border-radius: 12px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .cardmenudetails {
+    border-radius: 34px;
+    border: 1px solid #d1d1d1;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+  }
+
+  .toprestmenu {
+    border-radius: 9px;
+    border: 1px solid #565656;
+    width: 40%;
+    margin-left: 0%;
+    margin-top: -1rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .toprestmenuOrder {
+    border-radius: 9px;
+    border: 1px solid #565656;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: -1rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .toprestmenudetails {
+    border-radius: 9px;
+    border: 1px solid #565656;
+    width: 40%;
+    margin-left: 2%;
+    margin-top: -1rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .toprestmenuitem {
+    border-radius: 9px;
+    border: 1px solid #565656;
+    width: 40%;
+    margin-left: 2%;
+    margin-top: -1rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .cardmenu {
+    border-radius: 8.5px;
+    border: 1px solid #457614;
+    background: #eafcdb;
+    margin: 0.5rem 0.5rem;
+    text-align: center;
+  }
+
+  .menuwidth {
+    width: 100%;
+    margin: 1rem 0rem;
+    border-radius: 20px;
+    height: 100%;
+  }
+
+  .menuflex {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin: 1.5rem 0.5rem 0.5rem 0.5rem;
+  }
+
+  .cardmenu18 {
+    border-radius: 8px;
+    border: 1px solid #d1d1d1;
+    background: #fff;
+    width: 100%;
+  }
+
+  .cardmenu181 {
+    border-radius: 8px;
+    border: 1px solid #d1d1d1;
+    background: #fff;
+    width: 100%;
+  }
+
+  .itemcentermenu {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .southmenuitem {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: 1.298px solid #cae3b7;
+    background: #fff;
+    margin: 1rem 0.5rem;
+    color: #85afa2;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .southmenuitemedit {
+    width: 95%;
+    padding: 0.5rem 0.5rem;
+    border-radius: 15px;
+    border: 1.298px solid #cae3b7;
+    background: #fff;
+    margin: 1rem 0.5rem;
+    color: #85afa2;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .Entermenunamefont {
+    margin-top: -1rem;
+    background: #fff;
+    width: 60%;
+    text-align: center;
+    color: #588a7a;
+    font-size: 14px;
+  }
+
+  .southmenuactive {
+    width: 95%;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    border: 1.298px solid rgba(65, 151, 0, 1);
+    background: rgba(245, 255, 238, 1);
+    margin: 1rem 0.5rem;
+    color: #85afa2;
+    font-family: Ubuntu;
+    font-size: 18.982px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+// @media screen and (max-width: 1366px), screen and (max-height: 100%) {
+// }
+
+@media screen and (min-width: 1440px),
+screen and (max-height: 100%) {
+  .menuediterscroll {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 64.5vh;
+  }
+
+  .toprestmenu {
+    border-radius: 9px;
+    border: 1px solid #565656;
+    width: 35%;
+    margin-left: 10%;
+    margin-top: -1rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+}

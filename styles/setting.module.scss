@@ -1,0 +1,54 @@
+.settingcard {
+  border-radius: 23px;
+  border: 1px solid #ebebeb;
+  background: #fff;
+  margin: 0.5rem 0rem;
+  padding: 1rem;
+}
+
+.iconcard {
+  border: 1px solid #96c872;
+  color: #96c872;
+  width: 56px;
+  height: 56px;
+  border-radius: 20px;
+}
+
+.Generalfont {
+  color: #588a7a;
+  font-family: Ubuntu;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Viewfontsetting {
+  color: #abd28e;
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.marginsettings {
+  margin: 1rem 2rem;
+}
+
+.overflowsetting {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 74vh;
+}
+
+@media (max-width: 768px) {
+  .overflowsetting {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+  .marginsettings {
+    margin: 0rem 0.5rem;
+  }
+}

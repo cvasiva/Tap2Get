@@ -1,0 +1,30 @@
+/* groovylint-disable-next-line CompileStatic */
+pipeline {
+    agent any
+    stages {
+        stage('Cleaning Docker System at start') {
+            steps {
+                sh 'docker system prune -af'
+            }
+        }
+        stage('Building Image') {
+            steps {
+                sh 'docker-compose -f ./docker/docker-compose-build.yml build --no-cache'
+            }
+        }
+        stage('Pushing Image to Repo') {
+            steps {
+                sh 'docker tag tap2get_web:1.0.5-rc docker.adhirven.com/tap2get_web:1.0.5-rc'
+                sh 'docker login -u cicd_user -p glpat-j5hR5tZmEz_evq5LeoYg registry.gitlab.com'
+                sh 'docker tag tap2get_web:1.0.5-rc registry.gitlab.com/vinoprime/tap2get_web:1.0.5-rc'
+                sh 'docker push registry.gitlab.com/vinoprime/tap2get_web:1.0.5-rc'
+            }
+        }
+        // stage('Cleaning Docker System at end') {
+        //     steps {
+        //         sh 'docker system prune -af'
+        //     }
+        // }
+    }
+}
+

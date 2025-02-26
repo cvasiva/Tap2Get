@@ -1,0 +1,704 @@
+.FaRegBell:hover {
+  animation: tada 1s infinite;
+}
+
+.FaUser:hover {
+  background-color: #f4f8e2;
+
+  .FaUsericon {
+    background-color: white;
+  }
+}
+
+@keyframes tada {
+  0% {
+    transform: scale(1);
+  }
+
+  10%,
+  20% {
+    transform: scale(0.9) rotate(-3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale(1.1) rotate(3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    transform: scale(1.1) rotate(-3deg);
+  }
+
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+
+.getfont {
+  color: #dbdbdb;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.rigtbtnbg {
+  border-radius: 12px;
+  border: 1px solid #96c872;
+  background: #6fa292;
+  color: #96c872;
+}
+
+.defont {
+  color: #4c4c4c;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.nameravifont {
+  color: #797979;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.m5font {
+  color: #797979;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.Assbtn {
+  border-radius: 20px;
+  border: 2px solid #abd28e;
+  color: #74a650;
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.dashbordflex {
+  display: flex;
+  gap: 0.5rem;
+  margin: 0rem;
+  flex-direction: row;
+}
+
+.layoutwidth {
+  width: 70%;
+  padding: 0.75rem 1rem;
+  margin: 0.75rem 0rem;
+  border-radius: 30px;
+  background: #f4f8e2;
+  border: 1px solid #d1d1d1;
+  position: relative;
+  bottom: 0%;
+  height: 82vh;
+}
+
+.layoutwidth1 {
+  width: 30%;
+  padding: 0.75rem 1rem;
+  margin: 0.75rem 0rem;
+  border-radius: 30px;
+  height: 82vh;
+}
+
+// .cardnotification {
+//   border-radius: 52px 0px;
+//   border: 1px solid #588A7A;
+//   background: linear-gradient(45deg, #DEF7CB 50%, #ABD28E 50%);
+//   transition: margin-right 4s;
+// }
+
+.responsive_nav {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+  bottom: 0%;
+  right: 0%;
+  top: 2%;
+  border: 1px solid #588a7a;
+  background: linear-gradient(45deg, #def7cb 5%, #abd28e 50%);
+  width: 50vh;
+  z-index: 1;
+  border-radius: 20px 0px 0px 0px;
+  transform: translateX(0%);
+  // transition-duration: 0.3s;
+  // // transition-property: transform, opacity;
+  // // transition-timing-function: ease;
+  // transition: 0.3s;
+  // transition-delay: 1s;
+}
+
+
+.notifont {
+  color: #74a650;
+  font-family: Ubuntu;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.carddniyal {
+  border-radius: 19px;
+  border: 1px solid #96c872;
+  background: rgba(255, 255, 255, 0.78);
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.content_bspan {
+  color: #9a9a9a;
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.Danial_font {
+  color: #4c4c4c;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pizfont {
+  color: #9a9a9a;
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.overflowhome {
+  overflow: hidden;
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+.textdashboard {
+  text-align: start;
+}
+
+.overprifle {
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 137.5%;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-inline-start: 0%;
+  padding: 0rem 0rem;
+}
+
+.overcard {
+  border-radius: 22px;
+  border: 1px solid #588a7a;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(171, 210, 142, 1) 100%
+  );
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.borderci {
+  border: 1px solid #74a650;
+  width: 45px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.clasciwal {
+  width: 22px;
+  height: 22px;
+  color: #588a7a;
+}
+
+.widthprofile {
+  width: 16vw;
+}
+
+.topro {
+  color: #797979;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding-bottom: 2%;
+}
+
+.btn15 {
+  border-radius: 8px;
+  background: #588a7a;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.font18 {
+  color: #000;
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.flexcss {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 0rem 0.5rem;
+}
+
+.flexcss1 {
+  display: flex;
+  flex-direction: row;
+  // gap: 1rem;
+  margin-top: 2%;
+}
+
+.anafont {
+  color: #4c4c4c;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.slctstyle {
+  border-radius: 6px;
+  border: 1px solid #dadada;
+  background: #f0f0f0;
+  color: #8c8c8c;
+  font-family: Ubuntu;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.overviewcard {
+  border-radius: 22px;
+  border: 1px solid #588a7a;
+  background: #fff;
+  height: 140px;
+}
+
+.weeklycard {
+  border-radius: 22px;
+  border: 1px solid #588a7a;
+  background: #fff;
+  height: 140px;
+}
+
+.foodcard {
+  border-radius: 22px;
+  border: 1px solid #588a7a;
+  background: #f6ffef;
+  height: 23vh;
+  padding: 0.5rem;
+  overflow: auto;
+}
+
+.cardheader {
+  border-radius: 14px !important;
+  background: #fff;
+  color: #96c872;
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  width: 100%;
+}
+
+.bodytfont {
+  color: #8c8c8c;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.colwidth {
+  width: 100%;
+}
+
+.colwidth1 {
+  width: 100%;
+}
+
+.cardredieos {
+  border-radius: 30px;
+  margin: 1rem 0rem;
+}
+
+.Restaurantbtn {
+  border-radius: 27px;
+  background: #588a7a;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Restaurantbtnunactive {
+  border-radius: 27px;
+  border: 1px solid #626a3c;
+  background: #e2f6d3;
+  color: #669583;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.btnflex {
+  display: flex;
+  flex-direction: row;
+  text-align: start;
+  gap: 1rem;
+  padding: 1rem 1rem 1rem 3rem;
+}
+
+.proflefont {
+  text-align: start;
+  color: #4c4c4c;
+  margin-left: 2%;
+  font-family: ubuntu;
+  font-size: calc(0.8vw + 0.8vh + 2vmin);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.bellicon {
+  display: block;
+}
+
+.notificationstyle {
+  display: block;
+}
+
+.notificationstyle1 {
+  display: none;
+}
+
+.rondedhedr {
+  border-radius: 40px;
+}
+
+.padingravi {
+  padding: 0rem 0rem 0.5rem 0.5rem;
+}
+
+.profilelogostyle {
+  width: 100%;
+}
+
+.alignactivecenter {
+  display: flex;
+  // justify-content: start;
+}
+
+@media (max-width: 768px) {
+  .profilelogostyle {
+    width: 100%;
+  }
+  .padingravi {
+    padding: 0rem 0rem 0rem 0rem;
+  }
+
+  .overprifle {
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 137.5%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-inline-start: 5%;
+    padding: 0.5rem 0rem;
+  }
+
+  .rondedhedr {
+    border-radius: 20px;
+  }
+
+  .foodcard {
+    border-radius: 22px;
+    border: none;
+    background: #f6ffef;
+    height: 100%;
+    // width: 40vw;
+    padding: 0.5rem;
+    overflow: auto;
+    height: 100%;
+  }
+
+  .widthprofile {
+    width: 70%;
+  }
+
+  .Restaurantbtn {
+    width: 80%;
+    margin-left: 2%;
+    border-radius: 27px;
+    background: #588a7a;
+    color: #fff;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .Restaurantbtnunactive {
+    width: 80%;
+    margin-left: 2%;
+    border-radius: 27px;
+    border: 1px solid #626a3c;
+    background: #e2f6d3;
+    color: #669583;
+    font-family: Ubuntu;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .alignactivecenter {
+    display: flex;
+    justify-content: center;
+  }
+
+  .notificationstyle {
+    display: block;
+  }
+
+  .notificationstyle1 {
+    display: block;
+  }
+
+  .bellicon {
+    display: none;
+  }
+
+  .proflefont {
+    text-align: center;
+    color: #4c4c4c;
+    margin-left: 0%;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .cardredieos {
+    border-radius: 10px;
+    margin: 1rem 0rem;
+    padding: 1rem 1rem;
+  }
+
+  .btnflex {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 0%;
+  }
+}
+
+@media (max-width: 1024px) {
+  .flexcss {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0.5rem;
+  }
+
+  .flexcss1 {
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+  }
+
+  .colwidth {
+    width: 100%;
+  }
+
+  .colwidth1 {
+    width: 100%;
+  }
+
+  .overcard {
+    border-radius: 12px;
+    border: 1px solid #588a7a;
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(171, 210, 142, 1) 100%
+    );
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .cardheader {
+    border-radius: 14px !important;
+    background: #fff;
+    color: #96c872;
+    font-family: Ubuntu;
+    font-size: 14px;
+    text-wrap: nowrap;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 100%;
+  }
+
+  .bodytfont {
+    color: #8c8c8c;
+    font-family: Ubuntu;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 1024px) {
+  .layoutView {
+    height: 100%;
+    width: 100%;
+  }
+  .overflowhome {
+    overflow: hidden;
+    border-top-right-radius: 22px;
+    border-top-left-radius: 22px;
+  }
+
+  .textdashboard {
+    text-align: center;
+  }
+
+  .overflowhome {
+    overflow: scroll;
+  }
+
+  .responsive_nav {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+    bottom: 0%;
+    right: 0%;
+    top: 2%;
+    border: 1px solid #588a7a;
+    background: linear-gradient(45deg, #def7cb 5%, #abd28e 50%);
+    width: 45vh;
+    z-index: 1;
+    border-radius: 20px 0px 0px 0px;
+    // transform: translateX(0px);
+    // transition-duration: 0.2s;
+    // // transition-property: transform, opacity;
+    // // transition-timing-function: ease;
+    // transition: 0.3s;
+    // transition-delay: 1s;
+  }
+
+  .dashbordflex {
+    display: flex;
+    gap: 0rem;
+    margin: 0.5rem 0rem;
+    flex-direction: column;
+  }
+
+  .contentPart {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+  }
+
+  .layoutwidth {
+    width: 100%;
+    padding: 0.75rem 0rem;
+    margin: 0.5rem 0rem;
+    border-radius: 20px;
+    background: #f4f8e2;
+    border: 1px solid #d1d1d1;
+    height: 100%;
+  }
+
+  .layoutwidth1 {
+    width: 100%;
+    padding: 0.75rem 1.5rem;
+    margin: 0.5rem 0rem;
+    border-radius: 10px;
+    height: 100%;
+  }
+}
+
+
+@media screen and (min-width: 1440px), screen and (max-height: 100%) {
+  .foodcard {
+    border-radius: 22px;
+    border: 1px solid #588a7a;
+    background: #f6ffef;
+    padding: 0.5rem;
+    overflow: auto;
+  }
+  // .responsive_nav {
+  //   overflow: scroll;
+  //   overflow-x: hidden;
+  //   height: 100vh;
+  //   bottom: 0%;
+  //   top: 2%;
+  //   border: 1px solid #588a7a;
+  //   background: linear-gradient(45deg, #def7cb 5%, #abd28e 50%);
+  //   width: 50vh;
+  //   z-index: 1;
+  //   border-radius: 20px 0px 0px 0px;
+  //   transform: translateX(-100px);
+  //   transition-duration: 0.3s;
+  //   // // transition-property: transform, opacity;
+  //   // // transition-timing-function: ease;
+  //   // transition: 0.3s;
+  //   // transition-delay: 1s;
+  // }
+}

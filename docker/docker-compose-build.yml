@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  build_tap2get_web:
+    container_name: build_tap2get_web
+    build: ./../
+    image: tap2get_web:1.0.5-rc
+    networks:
+      - proxy_net
+
+networks:
+  proxy_net:
+    external: true

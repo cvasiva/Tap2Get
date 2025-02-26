@@ -1,0 +1,131 @@
+// .orderbike {
+//   background-blend-mode: soft-light;
+// }
+
+.responsive_nav {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 100vh;
+  bottom: 0%;
+  right: -6.5%;
+  top: 2%;
+  border: 1px solid #588a7a;
+  background: linear-gradient(45deg, #def7cb 5%, #abd28e 50%);
+  width: 50vh;
+  z-index: 1;
+  border-radius: 20px 0px 0px 0px;
+  transform: translateX(-100px);
+  transition-duration: 0.3s;
+  // // transition-property: transform, opacity;
+  // // transition-timing-function: ease;
+  // transition: 0.3s;
+  // transition-delay: 1s;
+}
+
+.notifont {
+  color: #74a650;
+  font-family: Ubuntu;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.carddniyal {
+  border-radius: 19px;
+  border: 1px solid #96c872;
+  background: rgba(255, 255, 255, 0.78);
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.Danial_font {
+  color: #4c4c4c;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pizfont {
+  color: #9a9a9a;
+  font-family: Ubuntu;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+
+.textdashboard {
+  text-align: start;
+}
+
+.overprifle {
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 137.5%;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-inline-start: 0%;
+  padding: 0rem 0rem;
+}
+
+.overcard {
+  border-radius: 22px;
+  border: 1px solid #588a7a;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(171, 210, 142, 1) 100%
+  );
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.borderci {
+  border: 1px solid #74a650;
+  width: 45px;
+  height: 40px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.clasciwal {
+  width: 22px;
+  height: 22px;
+  color: #588a7a;
+}
+
+.widthprofile {
+  width: 16vw;
+}
+
+@media (max-width: 1024px) {
+  .widthprofile {
+    width: 70%;
+  }
+  .responsive_nav {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100vh;
+    bottom: 0%;
+    right: 0%;
+    top: 2%;
+    border: 1px solid #588a7a;
+    background: linear-gradient(45deg, #def7cb 5%, #abd28e 50%);
+    width: 45vh;
+    z-index: 1;
+    border-radius: 20px 0px 0px 0px;
+    transform: translateX(0px);
+    transition-duration: 0.2s;
+    // // transition-property: transform, opacity;
+    // // transition-timing-function: ease;
+    // transition: 0.3s;
+    // transition-delay: 1s;
+  }
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+::-webkit-scrollbar-track {
+  position: absolute;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  /* background-color: #abd28e; */
+}
+
+::-webkit-scrollbar-thumb {
+  position: absolute;
+  border-radius: 5px;
+  background-color: #abd28e;
+}
+
+.dashbord {
+  overflow: hidden;
+
+}
+
+@media (max-width:1024px) {
+  .dashbord {
+    overflow: scroll;
+    height: 100%;
+
+  }
+}

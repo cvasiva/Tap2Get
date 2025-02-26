@@ -1,0 +1,18 @@
+version: '3.7'
+
+services:
+  tap2get_web:
+    container_name: tap2get_web
+    image: docker.adhirven.com/tap2get_web:1.0.5-rc
+    restart: unless-stopped
+    networks:
+      - proxy_net
+      # deploy:
+      # resources:
+      # limits:
+      # cpus: 1
+      # memory: 256M
+
+networks:
+  proxy_net:
+    external: true

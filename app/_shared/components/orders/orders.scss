@@ -1,0 +1,687 @@
+.ordercard {
+  border-radius: 20px;
+  background: #eafcdb;
+  border: 1px solid #d3e7bf;
+  margin: 1rem;
+  // padding: 1rem;
+}
+
+.orderliststyle {
+  border-radius: 9px;
+  border: 1px solid #565656;
+  width: 15%;
+  margin-left: 2%;
+  margin-top: -1rem;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.cardorderlist {
+  background: #f6ffef;
+  border-radius: 25px;
+  border: 1px solid #d1d1d1;
+  width: 20%;
+  height: 100%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 60vh;
+}
+
+.cardorderlist1 {
+  width: 80%;
+  // height: 80vh;
+  margin-top: 1rem;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 60vh;
+}
+
+.cardorder5 {
+  background: #fff;
+  border: 3px solid #74a650;
+  border-radius: 10px;
+  color: #74a650;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 2rem 0rem;
+  text-align: center;
+  width: 12vw;
+}
+
+.cardorderclose {
+  background: #fff;
+  border: 3px solid #d88282;
+  border-radius: 10px;
+  color: #d88282;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 2rem 0rem;
+  text-align: center;
+  width: 12vw;
+}
+
+.cardorderTimer {
+  background: #fff;
+  border: 3px solid #eea443;
+  border-radius: 10px;
+  color: #eea443;
+  font-size: 25px;
+  font-weight: 600;
+  margin: 2rem 0rem;
+  text-align: center;
+  width: 12vw;
+}
+
+.CheckCircle {
+  border-radius: 50%;
+  background: #cae3b7;
+  margin-top: -1.5rem;
+  margin-right: -1rem;
+  color: #74a650;
+  cursor: pointer;
+}
+
+.CheckCircleclose {
+  border-radius: 50%;
+  background: #fac8c8;
+  margin-top: -1.5rem;
+  margin-right: -1rem;
+  color: #d88282;
+  cursor: pointer;
+}
+
+.CheckCircleTimer {
+  border-radius: 50%;
+  background: #fbe7cd;
+  margin-top: -1.5rem;
+  margin-right: -1rem;
+  color: #eea443;
+  border: 1px solid #eea443;
+  cursor: pointer;
+}
+
+.CheckCircleuplode {
+  border-radius: 50%;
+  background: #cae3b7;
+  color: #74a650;
+}
+
+.CheckCirclecloseuplode {
+  border-radius: 50%;
+  background: #fac8c8;
+  color: #d88282;
+}
+
+.orderchicken {
+  border: 1px solid #4c4c4c;
+  background: #fff;
+  border-radius: 25px;
+  margin: 0rem 0.5rem 0.5rem 0.5rem;
+  padding: 0.5rem;
+}
+
+.orderfont {
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.orderfonttime {
+  color: #9a9a9a;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.orderfont1 {
+  color: #565656;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.orderfonttime1 {
+  color: #9a9a9a;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 2%;
+}
+
+.orderfonttimepreparing {
+  color: #9a9a9a;
+  font-family: Ubuntu;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.checkbtnorder {
+  background: #cae3b7;
+  border: 1px solid #74a650;
+  border-radius: 6px;
+  color: #74a650;
+}
+
+.Closebtnorder {
+  background: #fac8c8;
+  border: 1px solid #d88282;
+  border-radius: 6px;
+  color: #d88282;
+}
+
+.orderslistflex {
+  display: flex;
+  flex-direction: row;
+  // overflow: scroll;
+  // overflow-x: hidden;
+  // height: 63vh;
+}
+
+.activeiconorder {
+  background: #dff3cf;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cae3b7;
+  border-top: 1px solid #cae3b7;
+  cursor: pointer;
+}
+
+.unactiveiconorder {
+  padding: 1rem 2rem;
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cae3b7;
+  border-top: 1px solid #cae3b7;
+  cursor: pointer;
+}
+
+.idnuberfont {
+  color: #85afa2;
+  font-family: Ubuntu;
+  font-size: 18.982px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.Preparingbtn {
+  border: 2px solid #d5a769;
+  color: #d5a769;
+  font-size: 12px;
+  border-radius: 10px;
+  font-family: Ubuntu;
+  font-weight: 600;
+}
+
+.Readybtn {
+  border: 2px solid #74a650;
+  color: #74a650;
+  font-size: 12px;
+  border-radius: 10px;
+  font-family: Ubuntu;
+  font-weight: 600;
+}
+
+.fontordernumber {
+  color: #588a7a;
+  font-size: 18px;
+  font-family: Ubuntu;
+  font-weight: 700;
+}
+
+.preparingflex {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 1rem 1rem;
+}
+
+.Chickenordermenu {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem 2rem;
+}
+
+.pretimeorder {
+  background: #edfedf;
+  border: 1px solid #96c872;
+  border-radius: 15px;
+  width: 85%;
+  padding: 1rem;
+}
+
+.Executeflex {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.markbtn {
+  background: #e1f1d4;
+  border: 1px solid #cae3b7;
+  color: #a0bc8b;
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 600;
+  border-radius: 10px;
+  text-align: center;
+  width: 26%;
+}
+
+.Foodbtn {
+  background: #74a650;
+  border: 1px solid #96c872;
+  color: #fff;
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 600;
+  border-radius: 10px;
+  text-align: center;
+  width: 26%;
+}
+
+.palsedorder {
+  border: 1px solid #c0c0c0;
+  background: #fff;
+  width: 92%;
+  display: flex;
+  border-radius: 10px;
+}
+
+.Placedbgimag {
+  background: url("../../../_assets/images/palsedimg3.png");
+  background-repeat: no-repeat;
+  width: 13vw;
+  height: 7.5vh;
+}
+
+.Confirmedbgimg {
+  background: url("../../../_assets/images/palsedimg2.png");
+  background-repeat: no-repeat;
+  width: 13vw;
+  margin-left: -1rem;
+  height: 7.5vh;
+}
+
+.Pickedbgimg {
+  background: url("../../../_assets/images/palsedimg1.png");
+  background-repeat: no-repeat;
+  width: 13vw;
+  margin-left: -1rem;
+  height: 7.5vh;
+}
+
+.Deliveredbgimg {
+  background: url("../../../_assets/images/palsedimg.png");
+  background-repeat: no-repeat;
+  width: 13vw;
+  margin-left: -1rem;
+  height: 7.5vh;
+}
+
+.Deliveredbtn {
+  background: #588a7a;
+  border: 1px solid #96c872;
+  width: 20%;
+  border-radius: 11px;
+  color: #fff;
+  font-size: 16px;
+  font-family: Ubuntu;
+  font-weight: 600;
+}
+
+.Markgap {
+  gap: 0rem;
+}
+
+.Stockflexorder {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 0rem 0.5rem;
+}
+
+.prebtnflex {
+  display: flex;
+  flex-direction: row;
+  gap: 0.75rem;
+}
+
+.arivedfont {
+  text-align: end;
+  font-size: 10px;
+  color: #588a7a;
+  margin-top: -0.5rem;
+  font-weight: 700;
+  font-family: Ubuntu;
+}
+
+.nonvegfont {
+  border: 1px solid #cae3b7;
+  background: #fff;
+  border-radius: 8px;
+  color: #cae3b7;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.vegfontbtn {
+  border: none;
+  background: #588a7a;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+.veganfontbtn {
+  border: none;
+  background: rgb(238, 164, 67);
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+.vegfontbtnnonveg {
+  border: none;
+  background: #ec1909;
+  border-radius: 8px;
+  color: #fff;
+  font-family: Ubuntu;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+}
+
+.menuediterscrollorders {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 28vh;
+}
+
+.postorder_scroll {
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 21vh;
+}
+
+.Placedblock {
+  display: block;
+  visibility: visible;
+}
+
+.Chickenscroll{
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 32vh;
+}
+
+@media (max-width: 40em) {
+  .Chickenscroll{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+  .Placedblock {
+    display: none;
+    visibility: hidden;
+  }
+
+  .postorder_scroll {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .menuediterscrollorders {
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .orderfont1 {
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .ordercard {
+    border-radius: 20px;
+    background: #eafcdb;
+    border: 1px solid #d3e7bf;
+    margin: 0.5rem 0.5rem;
+    // padding: 1rem;
+  }
+
+  .Deliveredbtn {
+    background: #588a7a;
+    border: 1px solid #96c872;
+    width: 30%;
+    border-radius: 11px;
+    color: #fff;
+    font-size: 16px;
+    font-family: Ubuntu;
+    font-weight: 600;
+  }
+
+  .palsedorder {
+    display: none;
+    border: 1px solid #c0c0c0;
+    background: #fff;
+    width: 82%;
+    border-radius: 10px;
+  }
+
+  .pretimeorder {
+    background: #edfedf;
+    border: 1px solid #96c872;
+    border-radius: 15px;
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .Chickenordermenu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0.5rem;
+  }
+
+  .prebtnflex {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+  }
+
+  .preparingflex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 1rem 1rem;
+  }
+
+  .activeiconorder {
+    background: #dff3cf;
+    padding: 1rem 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cae3b7;
+    border-top: 1px solid #cae3b7;
+    cursor: poUbuntu;
+  }
+
+  .unactiveiconorder {
+    padding: 1rem 0.5rem;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #cae3b7;
+    border-top: 1px solid #cae3b7;
+    cursor: poUbuntu;
+  }
+
+  .Stockflexorder {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0rem 0.5rem;
+  }
+
+  .Foodbtn {
+    background: #74a650;
+    border: 1px solid #96c872;
+    color: #fff;
+    font-size: 16px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .markbtn {
+    background: #e1f1d4;
+    border: 1px solid #cae3b7;
+    color: #a0bc8b;
+    font-size: 16px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .Markgap {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Placedblock {
+    display: none;
+    visibility: hidden;
+  }
+
+  .orderslistflex {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .cardorderlist {
+    background: #f6ffef;
+    border-radius: 10px;
+    border: 1px solid #d1d1d1;
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .cardorderlist1 {
+    width: 100%;
+    height: 100%;
+    margin-top: 1rem;
+    overflow: scroll;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  .orderliststyle {
+    border-radius: 9px;
+    border: 1px solid #565656;
+    width: 40%;
+    margin-left: 2%;
+    margin-top: -1rem;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.16);
+    color: #565656;
+    font-family: Ubuntu;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .cardorder5 {
+    background: #fff;
+    border: 3px solid #74a650;
+    border-radius: 10px;
+    color: #74a650;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 2rem 0rem;
+    text-align: center;
+    width: 52vw;
+  }
+
+  .cardorderclose {
+    background: #fff;
+    border: 3px solid #d88282;
+    border-radius: 10px;
+    color: #d88282;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 2rem 0rem;
+    text-align: center;
+    width: 52vw;
+  }
+
+  .cardorderTimer {
+    background: #fff;
+    border: 3px solid #eea443;
+    border-radius: 10px;
+    color: #eea443;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 2rem 0rem;
+    text-align: center;
+    width: 52vw;
+  }
+}

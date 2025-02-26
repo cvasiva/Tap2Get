@@ -1,0 +1,33 @@
+/* groovylint-disable-next-line CompileStatic */
+pipeline {
+    agent any
+    stages {
+        stage('Building Image') {
+            steps {
+                sh 'docker-compose -f ./docker/docker-compose-deploy.yml build --no-cache'
+            }
+        }
+        stage('Deleting Old Container') {
+            steps {
+                sh 'docker-compose -f ./docker/docker-compose-deploy.yml down'
+            }
+        }
+        stage('Launching Container') {
+            steps {
+                sh 'docker-compose -f ./docker/docker-compose-deploy.yml up -d'
+            }
+        }
+        stage('Cleaning Containers') {
+            steps {
+                sh 'docker image prune -f'
+            }
+        }
+    }
+    post {
+        always {
+            sh '''
+                sh "docker system prune -af -q"
+               '''
+        }
+    }
+}
